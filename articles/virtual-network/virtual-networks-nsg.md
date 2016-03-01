@@ -214,7 +214,7 @@ Requirements 1-6 (with exception of 3) above are all confined to subnet spaces. 
 |---|---|---|---|---|---|---|---|
 |allow HTTP|Allow|100|INTERNET|\*|\*|80|TCP|
 |allow RDP from FrontEnd|Allow|200|192.168.1.0/24|\*|\*|3389|TCP|
-|deny anything from Internet|Deny|300|INTERNET|\*|\*|\*|TCP|
+|deny anything from Internet|Deny|300|INTERNET|\*|\*|\*|\*|
 
 **Outgoing rules**
 
